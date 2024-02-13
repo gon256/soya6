@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<THML>
+
+    <body style="font-size:40px;">
+        <script>
+
+
+
+
+            myName = "クソガキ";
+            let score = 2000;
+
+
+
+            //お邪魔を表示
+            document.write(myName + "お邪魔<BR>");
+            document.write("このコンセントは" + score + "円だぞ！<BR>");
+            document.write(myName + "金がないんだったら私が出そうじゃないの<BR>");
+
+
+            //BMI（肥満指数）
+            //　体重㎏÷（身長m×身長m）
+
+            myName = "ゴン";
+            let myHeight = 170;
+            let myWeight = 57;
+            //let myBMI=myWeight/((myHeight/100)*(myHeight/100));
+            let myBMI = myWeight / (myHeight * myHeight / 10000);
+
+
+
+
+
+
+            //document.write(myName+"お邪魔<BR>");の＋は連結演算子     
+
+            myName = "ゴンダ";
+
+
+            //お邪魔を表示
+            document.write(myName + "お邪魔<BR>");
+            document.write("身長は" + myHeight + "cm<BR>");
+            document.write("体重は" + myWeight + "kg<BR>");
+            document.write("あなたのBMIは" + myBMI + "点です。<BR>");
+
+
+            const BMI_YASETEMANNNENN1 = 18.5;
+
+            if (myBMI < 18.5) {
+                document.write("お前人間じゃねえ");
+            }
+            else if (myBMI >= BMI_YASETEMANNNENN1) {
+                document.write("いい体つきね");
+            }
+
+            for (let i = 1; i <= 100; i++) {
+                if (i % 20 == 0) {
+                    document.write("FizzBuzz");
+                }
+                else if (i % 4 == 0) {
+                    document.write("Fizz");
+                }
+                else if (i % 5 == 0) {
+                    document.write("Buzz");
+
+                }
+                else {
+                    document.write(i);
+                }
+                document.write("\n");
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </script>
+    </body>
+</THML>
